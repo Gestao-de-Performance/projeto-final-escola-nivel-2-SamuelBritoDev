@@ -1,0 +1,168 @@
+/* :root{
+    --Preto--:var(--Preto--)
+    --Branco--:
+
+} */
+
+body{
+    /* background-image: url("originais/MicBranco.png  "); */
+    background-attachment: fixed;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.fundoPagina{
+    background-image: url("originais/MicBranco.png"); /* Imagem para o modo escuro */
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    color: white; /* Cor do texto para o modo escuro */
+    background-size: 15%;
+    background-repeat: no-repeat;
+}
+
+/* Modo claro */
+.light-mode {
+    background-image: url("originais/MicPreto.png   "); /* Imagem para o modo claro */
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+    color: black; /* Cor do texto para o modo claro */
+    background-size: 15%;
+    background-repeat: no-repeat;
+}
+
+
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    /* padding: 10%; */
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.centralizarParagrafo{
+   
+    justify-content: center;
+    /* padding: 10%; */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.borda{
+    height: 110%;
+    border: 5px solid white; /* Cor da borda (braco) */
+    text-align: center;
+    transition: 0.1s;
+}
+
+.espacoApresentacao{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.reduzirFooter{
+    display: flex; 
+    flex-direction: column;
+    width: 800px;
+    margin-left: 28%;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.light-mode .borda {
+    border-color: black; /* Borda no modo claro */
+}
+
+.centralTitle{
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+h2{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    background-color: black; 
+ /* Cor de fundo */
+    color: white; /* Texto em branco */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 65%; /* Tamanho da fonte */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Muda o cursor para pointer */
+    transition: background-color 0.3s, border-color 0.3s; /* Suaviza a mudança de cor */
+}
+
+button.light-mode {
+    background-color: white;
+    color: white;
+    border: 2px solid white; /* Borda para o modo claro */
+}
+
+.centraltext{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.espacoParagrafo{
+    margin-top: 2%;
+}
+.espacoParagrafoBaixo{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+
+
+
+/* Classe para texto claro */
+.texto-claro {
+    color: black;
+}
+
+/* Classe para texto escuro */
+.texto-escuro {
+    color: white;
+}
+
+
+
+footer{
+background-color: black; 
+padding: 20px; 
+text-align: center; 
+font-size: 14px; 
+color: white;
+}
+
+footer.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* button { */
+    /* background-color: black; */
+    /* background-color: black; 
+    color: yellow;
+} */
+
+/* button.dark-mode {
+    background-color: orange;
+    color: green;
+} */
+
